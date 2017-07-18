@@ -1,0 +1,31 @@
+{
+  "name": "storyshots-rp",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@storybook/addon-storyshots": "3.1.2",
+    "@storybook/react-native": "3.1.2",
+    "@storybook/react": "3.1.2",
+    "jest-expo": "^0.3.0",
+    "react-dom": "15.4.x",
+    "react-native-scripts": "^0.0.22",
+    "react-test-renderer": "15.4.x"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "storybook": "storybook start -p 7007"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "15.x.x",
+    "react": "15.4.x",
+    "react-native": "0.42.x"
+  }
+}
