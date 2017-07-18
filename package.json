@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "@storybook/addon-storyshots": "3.1.2",
-    "@storybook/react-native": "3.1.2",
-    "@storybook/react": "3.1.2",
-    "jest-expo": "^0.3.0",
-    "react-dom": "15.4.x",
-    "react-native-scripts": "^0.0.22",
-    "react-test-renderer": "15.4.x"
+    "@storybook/react": "^3.1.9",
+    "@storybook/react-native": "^3.1.9",
+    "jest-expo": "~18.0.0",
+    "ktj-storyshots": "^3.1.9",
+    "react-dom": "16.0.0-alpha.12",
+    "react-native-scripts": "0.0.50",
+    "react-test-renderer": "16.0.0-alpha.12"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
@@ -24,8 +24,8 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "expo": "15.x.x",
-    "react": "15.4.x",
-    "react-native": "0.42.x"
+    "expo": "^18.0.3",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.45.1"
   }
 }

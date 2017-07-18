@@ -1,4 +1,4 @@
-import initStoryshots from '@storybook/addon-storyshots';
+import initStoryshots from 'ktj-storyshots';
 
 initStoryshots({
   framework: 'react-native'
